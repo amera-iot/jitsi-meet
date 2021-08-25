@@ -142,7 +142,7 @@ var config = {
     // Video
 
     // Sets the preferred resolution (height) for local video. Defaults to 720.
-    resolution: 360, //720
+    // resolution: 360, //720
 
     // Specifies whether there will be a search field in speaker stats or not
     // disableSpeakerStatsSearch: false,
@@ -156,15 +156,15 @@ var config = {
     // util#browser#usesNewGumFlow. The constraints are independent from
     // this config's resolution value. Defaults to requesting an ideal
     // resolution of 720p.
-    constraints: {
-        video: {
-            height: {
-                ideal: 720,
-                max: 1080,
-                min: 240
-            }
-        }
-    },
+    // constraints: {
+    //     video: {
+    //         height: {
+    //             ideal: 720,
+    //             max: 1080,
+    //             min: 240
+    //         }
+    //     }
+    // },
 
     // Enable / disable simulcast support.
     disableSimulcast: true, // false
@@ -186,11 +186,11 @@ var config = {
     // supported when  using H.264. For 1-to-1 calls this setting is enabled by
     // default and can be toggled in the p2p section.
     // This option has been deprecated, use preferredCodec under videoQuality section instead.
-    preferH264: true,
+    // preferH264: true,
 
     // If set to true, disable H.264 video codec by stripping it out of the
     // SDP.
-    disableH264: false, //true
+    // disableH264: false, //true
 
     // Desktop sharing
 
@@ -641,7 +641,7 @@ var config = {
 
         // If set to true, it will prefer to use H.264 for P2P calls (if H.264
         // is supported). This setting is deprecated, use preferredCodec instead.
-        preferH264: false,
+        // preferH264: false,
 
         // Provides a way to set the video codec preference on the p2p connection. Acceptable
         // codec values are 'VP8', 'VP9' and 'H264'.
